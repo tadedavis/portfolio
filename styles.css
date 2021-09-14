@@ -1,11 +1,10 @@
-* {
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-body {
+/*body {
 	color: #414141;
-	background-color: #EEEEEE;
 	text-align: center;
 }
 h1 {
@@ -82,7 +81,7 @@ div {
 	width: 200px;
 	box-sizing: border-box;
 	margin: 20px auto;
-} 
+}
 .synopsis {
 	color: #7E8184;
 	font-style: italic;
@@ -116,4 +115,107 @@ a:active {
 
 	width: 200px;
 	margin: 20px auto;
+}*/
+ul {
+	list-style-type: none;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;
+  padding: 20px 0;
+  display: flex;
+
+  justify-content: center;
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+	background-color: #ff00ff;
+}
+
+.footer-item {
+  border: 1px solid #000;
+  background-color: #D6E9FE;
+  height: 50px;
+	width: 100%;
+  flex: 1;
+	text-align: center;
+	justify-content: center;
+}
+
+.footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 25%;
+}
+.footer-two {
+	border: 10px solid #000;
+	text
+}
+
+.header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-one {
+	justify-content: center;
+	background-color: #800000;
+	width: 300px;
+}
+@media only screen and (max-width: 400px) {
+	 body {
+		 background-color: #F09A9D
+	 }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .sign-up,
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+      width: 50%;
+      }
+}
+
+@media only screen and (min-width: 961px) {
+  .page {
+   width: 960px;
+   margin: 0 auto;
+ }
+ .feature-1,
+ .feature-2,
+ .feature-3 {
+   width: 33.3%;
+ }
+ .header {
+   height: 400px;
+ }
+
+ .sign-up {
+  height: 200px;
+  order: 1;
+}
+.content {
+  order: 2;
+}
+
 }
